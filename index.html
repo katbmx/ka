@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+<h1>Lançamento Vertical </h1> <!--título do site-->
+    <div class="centralizado">
+<br>
+        <div class="posicao">
+            <label for="inputposicao">posição inicial (m)  <input type="number" name="h0" id="inputposicao"></label> <!--Input e label para colocar o número do cálculo -->
+        </div>
+<br>
+        <div class="velocidade">
+            <label for="inputvelocidade">velocidade inicial (m/s) <input type="number" name="v0" id="inputvelocidade"></label> <!--a mesma coisa da frequencia-->
+        </div>
+    </div>
+<br>
+    <div class="tempo">
+        <label for="inputtempo">tempo(s)<input type="number" name="t" id="inputtempo"></label>
+    </div>
+    <div class="botão" id="calcular">
+        <button id="calcular">Calcular</button> <!--botão que quando clicado revela o resultado-->
+    </div>
+    <br>
+    <div class="resultado" id="resultado">
+        <p id="resultado"></p> <!--onde aparece o resultado-->
+    </div>
+    
+
+</body>
+
+</html>
